@@ -1,0 +1,77 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+    
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+
+}
+  
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+  
+img {
+    max-width: 100%;
+    display: block;
+}
+  
+/* Globales */
+  
+a {
+    text-decoration: none;
+    color: #000000;
+}
+  
+.container {
+    width: min(90%, 117.6rem);
+    margin: 0 auto;
+}
+/* header */
+
+.clase-contenedora{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+.logo{
+    background-image: url(../images/Rectangle\ red.png);
+    max-height: 5rem;
+    width: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button a{
+    background-color: blueviolet;
+    padding: 2rem 3rem;
+}
+nav a{
+    padding: 1rem 3rem;
+    
+    background-color: rgb(189, 184, 184);
+    border-radius: 20px;
+    
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 1rem;
+}
+@media (min-width: 768px) {
+    nav{
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+}
+
